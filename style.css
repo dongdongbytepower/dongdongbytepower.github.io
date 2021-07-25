@@ -7,3 +7,8 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
 }
+.container_header,.container_footer {
+  flex-shrink: 0;
+  padding: 16px;
+  text-align: center;
+}
