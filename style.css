@@ -1,25 +1,4 @@
 .body {
 display: flex;
 flex-direction: column;   
- text-align: center;
-        min-height: 40vh;
-    }
-.main {
-    display: flex;
-    flex: auto;
-  }
-.aside{
-    background:#007;
-    flex:1;
-  background:salmon;
-  }
-.article {
- flex:3;
-   background:yellow;
-    }
-.header,.footer{
-   
-    height: 50px;
-    line-height: 50px;
-     background:#996;
-  }
+}
