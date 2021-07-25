@@ -1,39 +1,35 @@
-.container {
+.body {
 height: 100vh;
 display: flex;
 flex-direction: column;   
 }
-.body {
-  display: flex;
-  flex-direction: column;
-}
-.container_header,.container_footer {
+.header,.footer {
   flex-shrink: 0;
   padding: 16px;
   text-align: center;
 }
-.container_heder {
+.heder {
   background:#ecf7dd;
   border-bottom: 1px solid rgba (0,0,0,0.3);
 }
-.container_footer {
+.footer {
   background: #ffae90;
   border-top: 1px solid rgba (0,0,0,0.3);
 }
-.container_main {
+.main {
   flex-grow: 1;
   display: flex;
   flex-direction: row;
 }
-.container_left {
+.aside {
   width: 25%;
   background: #4fcbbb;
 }
-.container_middle {
+.article{
   flex-grow: 1;
   background: #2494cc;
 }
-.container_right {
+.right {
   width: 20%;
   background: #ef39a7;
 }
