@@ -9,7 +9,7 @@ flex-direction: column;
   text-align: center;
 }
 .header {
-  background:#ecf7dd;
+  background: #ecf7dd;
   border-bottom: 1px solid rgba (0,0,0,0.3);
 }
 .footer {
