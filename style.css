@@ -1,29 +1,29 @@
-.body {
+body {
 height: 100vh;
 display: flex;
 flex-direction: column;   
 }
-.header,.footer {
+header,footer {
   flex-shrink: 0;
   padding: 16px;
 }
-.header {
+header {
   background: #ecf7dd;
   border-bottom: 1px solid rgba (0,0,0,0.3);
 }
-.footer {
+footer {
   background: #ffae90;
   border-top: 1px solid rgba (0,0,0,0.3);
 }
-.main {
+main {
   display: flex;
   flex:auto;
 }
-.aside {
+aside {
   flex: 1;
   background: #4fcbbb;
 }
-.article{
+article{
   flex: 3;
   background: #2494cc;
 }
