@@ -19,6 +19,8 @@ footer {
 main {
   display: flex;
   flex:auto;
+  flex-grow: 1;
+  flex-direction: row; 
 }
 aside {
   flex: 1;
