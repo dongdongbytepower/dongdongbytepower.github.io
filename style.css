@@ -6,7 +6,6 @@ flex-direction: column;
 .header,.footer {
   flex-shrink: 0;
   padding: 16px;
-  text-align: center;
 }
 .header {
   background: #ecf7dd;
