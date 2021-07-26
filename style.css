@@ -6,6 +6,7 @@ flex-direction: column;
 header,footer {
   flex-shrink: 0;
   padding: 16px;
+  text-align: center;
 }
 header {
   background: #ecf7dd;
@@ -26,5 +27,10 @@ aside {
 article{
   flex: 3;
   background: #2494cc;
+}
+aside,article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
