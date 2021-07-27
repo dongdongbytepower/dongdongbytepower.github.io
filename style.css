@@ -3,14 +3,46 @@ height: 100vh;
 display: flex;
 flex-direction: column;   
 }
-header,footer {
+footer {
   flex-shrink: 0;
   padding: 16px;
   text-align: center;
 }
 header {
+  flex-shrink: 0;
+  padding: 16px;
+  display: flex;
+  flex: auto;
+}
+ao {
   background: #ecf7dd;
   border-bottom: 1px solid rgba (0,0,0,0.3);
+}
+au {
+  width: 36em;
+  height: 36em;
+  font-size: 5px;
+  color: #DC143C;
+  background-color: currentColor;
+}
+au::before {
+  content: '';
+  width: 20em;
+  height: 60em;
+  box-sizing: border-box;
+  border: solid #FFD700;
+  border-radius: 50;
+  boder-radius: 50%;
+  boder-width: 2.2em 4.4em;
+  filter: drop-shadow(16em 0 0 #FFD700);
+}
+au::after {
+  content: '';
+  width: 6em;
+  height: 1.5em;
+  background-color: currentColor;
+  left: calc((36em - 6em) / 2);
+  bottom: 0;
 }
 footer {
   background: #ffae90;
