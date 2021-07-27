@@ -3,7 +3,7 @@ height: 100vh;
 display: flex;
 flex-direction: column;   
 }
-footer header {
+footer, header {
   flex-shrink: 0;
   padding: 16px;
   text-align: center;
